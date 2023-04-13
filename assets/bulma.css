@@ -463,7 +463,7 @@ p {
 }
 
 .shadow {
-  color: #000000;
+  color: #ffffff;
   text-shadow: 1px 1px #000000;
   font-size: 1em;
   font-weight: 400;
@@ -1067,7 +1067,7 @@ a.has-text-white:focus {
 }
 
 .has-background-white {
-  background-color: white !important;
+  background-color: rgba(255, 255, 255, 0) !important;
 }
 
 .has-text-black {
@@ -1248,7 +1248,7 @@ a.has-text-danger:focus {
 }
 
 .has-background-white-ter {
-  background-color: whitesmoke !important;
+  background-color: rgba(245, 245, 245, 0.055) !important;
 }
 
 .has-text-white-bis {
