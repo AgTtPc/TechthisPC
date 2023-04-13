@@ -410,7 +410,8 @@ html {
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  min-width: 300px;
+  min-width: 100%;
+  min-height: 100%
   overflow-x: hidden;
   overflow-y: scroll;
   text-rendering: optimizeLegibility;
@@ -457,6 +458,7 @@ p {
   font-size: 1em;
   font-weight: 400;
   line-height: 1;
+  justify-content: center;
 
 }
 
@@ -474,6 +476,7 @@ p {
   font-size: 1em;
   font-weight: 800;
   line-height: 1.5;
+  justify-content: center;
 
 }
 
@@ -482,6 +485,7 @@ a {
   color: #3273dc;
   cursor: pointer;
   text-decoration: none;
+  justify-content: center;
 }
 
 a strong {
@@ -498,6 +502,7 @@ code {
   font-size: 0.875em;
   font-weight: normal;
   padding: 0.25em 0.5em 0.25em;
+  justify-content: center;
 }
 
 hr {
@@ -506,20 +511,24 @@ hr {
   display: block;
   height: 2px;
   margin: 1.5rem 0;
+  justify-content: center;
 }
 
 img {
   height: auto;
   max-width: 100%;
+  justify-content: center;
 }
 
 input[type="checkbox"],
 input[type="radio"] {
   vertical-align: baseline;
+  justify-content: center;
 }
 
 small {
   font-size: 0.875em;
+  justify-content: center;
 }
 
 span {
@@ -6620,16 +6629,19 @@ a.list-item {
   align-items: flex-start;
   display: flex;
   text-align: left;
+  
 }
 
 .media .content:not(:last-child) {
   margin-bottom: 0.75rem;
+  
 }
 
 .media .media {
   border-top: 1px solid rgba(219, 219, 219, 0.5);
   display: flex;
   padding-top: 0.75rem;
+  
 }
 
 .media .media .content:not(:last-child),
@@ -10391,9 +10403,10 @@ print {
 }
 
 .columns {
-  margin-left: -0.75rem;
-  margin-right: -0.75rem;
-  margin-top: -0.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
 }
 
 .columns:last-child {
@@ -10429,6 +10442,9 @@ print {
 
 .columns.is-mobile {
   display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
 }
 
 .columns.is-multiline {
