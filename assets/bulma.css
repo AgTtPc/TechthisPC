@@ -12078,7 +12078,7 @@ print {
 
 .section {
   padding: 3rem 1.5rem;
-  height: 60vmax;
+  height: auto;
 }
 
 @media screen and (min-width: 1024px) {
