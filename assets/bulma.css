@@ -323,7 +323,7 @@ fieldset[disabled] .pagination-ellipsis {
 }
 
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
-html,
+html
 body,
 ol,
 ul,
@@ -429,6 +429,7 @@ header,
 hgroup,
 section {
   display: block;
+  height:100%;
 }
 
 body,
@@ -454,7 +455,7 @@ body {
 }
 
 p {
-  color: #000000;
+  color: #ffffff2f;
   font-size: 1em;
   font-weight: 400;
   line-height: 1;
@@ -468,6 +469,7 @@ p {
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5;
+  text-align: center;
 
 }
 
@@ -476,7 +478,7 @@ p {
   font-size: 1em;
   font-weight: 800;
   line-height: 1.5;
-  justify-content: center;
+  text-align: center;
 
 }
 
@@ -3353,6 +3355,7 @@ fieldset[disabled] .button {
   margin: 0 auto;
   position: relative;
   width: auto;
+  height:auto
 }
 
 .container.is-fluid {
@@ -3396,7 +3399,7 @@ fieldset[disabled] .button {
   margin-top: 0.25em;
 }
 
-.content p:not(:last-child),
+.content p:not(:last-child) {text-align: center;}
 .content dl:not(:last-child),
 .content ol:not(:last-child),
 .content ul:not(:last-child),
@@ -3623,7 +3626,7 @@ fieldset[disabled] .button {
 
 .image {
   display: block;
-  position: relative;
+  position: center;
 }
 
 .image img {
@@ -6324,6 +6327,7 @@ print {
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
   color: #4a4a4a;
   max-width: 100%;
+  max-height: 100%;
   position: relative;
 }
 
@@ -6687,7 +6691,7 @@ a.list-item {
   flex-basis: auto;
   flex-grow: 1;
   flex-shrink: 1;
-  text-align: left;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -7493,8 +7497,7 @@ print {
 }
 
 .navbar.is-info {
-  background-color: #3298dc;
-  color: #fff;
+  background-color: #121212;
 }
 
 .navbar.is-info .navbar-brand>.navbar-item,
@@ -12097,8 +12100,8 @@ print {
 }
 
 .footer.is-info {
-  background-color: #3298dc;
-  color: #fff;
+  background-color: #121212;
+
 }
 
 
